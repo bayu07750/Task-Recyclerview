@@ -1,5 +1,3 @@
-# Task-Recyclerview
-
 ## List Branch
   - master
     - RecyclerView click item akan ke detail
