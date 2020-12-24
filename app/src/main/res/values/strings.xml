@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Task-Recyclerview</string>
-    <string name="imageuser">ImageUser</string>
     <string name="home">Home</string>
-    <string name="detail">Detail User</string>
+    <string name="chat">Chat</string>
+    <string name="status">Status</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
