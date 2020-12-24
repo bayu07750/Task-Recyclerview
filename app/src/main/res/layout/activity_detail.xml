@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.detail.DetailActivity">
+
+    <ImageView
+        android:id="@+id/imageUser"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:contentDescription="@string/imageuser"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3"
+        tools:srcCompat="@drawable/avatar_0" />
+
+    <TextView
+        android:id="@+id/textFullNameUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textAppearance="?attr/textAppearanceHeadline5"
+        app:layout_constraintEnd_toEndOf="@id/imageUser"
+        app:layout_constraintStart_toStartOf="@id/imageUser"
+        app:layout_constraintTop_toBottomOf="@id/imageUser"
+        tools:text="Username" />
+
+    <TextView
+        android:id="@+id/textEmailUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceSubtitle1"
+        app:layout_constraintEnd_toEndOf="@id/textFullNameUser"
+        app:layout_constraintStart_toStartOf="@id/textFullNameUser"
+        app:layout_constraintTop_toBottomOf="@id/textFullNameUser"
+        tools:text="example@gmail.com" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
